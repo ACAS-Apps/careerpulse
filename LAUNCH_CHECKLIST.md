@@ -11,10 +11,11 @@ App **2 of 4** in the **Axis Intelligence Platform**.
 - [x] Indicative UK salary benchmarks (10 roles × 8 locations × 4 clearance levels)
 - [x] Static landing page + draft privacy notice with clearance-specific clause
 - [x] CI workflow (typecheck + lint) + GitHub Pages workflow
+- [x] Public repo created (`ACAS-Apps/careerpulse`) — both workflows green on `master`
+- [x] GitHub Pages enabled — landing live at <https://acas-apps.github.io/careerpulse/>
 
 ## 🚧 This week
 
-- [ ] Enable GitHub Pages in repo settings → source: GitHub Actions (auto on push if repo is public)
 - [ ] Point `EXPO_PUBLIC_API_BASE` at the deployed backend
 - [ ] Wire landing-page waitlist to a real `/v1/waitlist` endpoint
 - [ ] Add real app icon + splash (`assets/icon.png`, `assets/splash.png`)
@@ -48,5 +49,5 @@ App **2 of 4** in the **Axis Intelligence Platform**.
 
 - App repo: <https://github.com/ACAS-Apps/careerpulse>
 - Backend repo: <https://github.com/ACAS-Apps/apps-backend>
-- Landing (after Pages enabled): <https://acas-apps.github.io/careerpulse/>
+- Landing (live): <https://acas-apps.github.io/careerpulse/>
 - ICO clearance/sensitive data guidance: <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/>
